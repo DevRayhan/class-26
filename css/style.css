@@ -25,6 +25,34 @@
     color: white;
     font-size: 21px;
 }
+
+/* company section start */
+.company-left{
+    margin-top: 20px;
+}
+.company-left span::after {
+    position: absolute;
+    content: "";
+    background-color: #3763eb;
+    width: 77px;
+    height: 3px;
+    top: 90px;
+    left: 0;
+}
+.single-img {
+    width: 247px;
+    padding: 34px;
+    border: 1px solid #f2efef;
+}
+.single-img img{
+    width: 100%;
+}
+.company-img{
+    background-color: #f6f9fc;
+}
+.company-img1{
+    color: #606060;
+}
 /* blog section start */
 .blog-header h5{
     color: #3763eb;
@@ -39,7 +67,7 @@
     width: 77px;
     height: 3px;
     top: 90px;
-    left: 377px;
+    left: 450px;
 }
 .blog-header p {
     color: #606060;
@@ -47,6 +75,10 @@
     padding: 20px 0;
 }
 /* thumbnail section start */
+
+.thumbnail-img{
+    position: relative;
+}
 .thumbnail-img img{
     max-width: 100%;
     border-radius: 7px;
@@ -58,6 +90,34 @@
 .thumbnail-content p {
     font-size: 15px;
     color: #606060;
+}
+
+.img-button {
+    width: 237px;
+    height: 47px;
+    background-color: #3763eb;
+    border-radius: 64px;
+    position: absolute;
+    bottom: 27px;
+    right: 37px;
+}
+.img-button img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+.img-button a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.img-button h6 {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-top: 12px;
+    padding-left: 13px;
 }
 /* footer section start */
 .footerSection{
