@@ -30,14 +30,14 @@
 .company-left{
     margin-top: 20px;
 }
-.company-left span::after {
+.company-left span::before {
     position: absolute;
     content: "";
     background-color: #3763eb;
     width: 77px;
     height: 3px;
-    top: 90px;
-    left: 0;
+    top: 220px;
+    left: 102px;
 }
 .single-img {
     width: 247px;
@@ -57,16 +57,16 @@
 .blog-header h5{
     color: #3763eb;
 }
-.blog-header{
+.blog-header h1{
     position: relative;
 }
-.blog-header span::after {
+.blog-header h1::after {
     position: absolute;
     content: "";
     background-color: #3763eb;
     width: 77px;
     height: 3px;
-    top: 90px;
+    top: 63px;
     left: 450px;
 }
 .blog-header p {
