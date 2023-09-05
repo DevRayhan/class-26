@@ -6,7 +6,7 @@
 .logo img{
     max-width: 97px;
 }
-.menuLogo{
+.menuLogo{     
     display: flex;
     justify-content: space-between;
 }
@@ -46,9 +46,15 @@
 }
 .single-img img{
     width: 100%;
+    /* filter: opacity(.5); */
+    opacity: .5;
+    transition: .5s;
 }
-.company-img{
+.single-img img:hover{
     background-color: #f6f9fc;
+    cursor: pointer;
+    /* filter: opacity(1); */
+    opacity: 1;
 }
 .company-img1{
     color: #606060;
